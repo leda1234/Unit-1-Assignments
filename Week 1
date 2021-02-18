@@ -1,0 +1,14 @@
+#Multiplication 
+
+def multiply_list(input_list):
+    output = 1
+    correct_output = False
+    for element in input_list:
+        if type(element) == int:
+            correct_output = True
+            output = output * element
+
+    return output if correct_output else None 
+    
+    
+   
